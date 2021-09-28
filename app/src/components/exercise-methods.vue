@@ -12,8 +12,8 @@
     </section>
 </template>
 
-<script src='../js/exercise-methods.js'></script>
+<script src='../assets/js/exercise-methods.js'></script>
 
 <style lang="scss">
-    @import "../styles/exercise-methods.scss";
+    @import "../assets/styles/exercise-methods.scss";
 </style>
