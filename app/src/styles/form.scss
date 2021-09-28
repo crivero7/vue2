@@ -1,0 +1,29 @@
+/* src/styles/form.scss */
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: #a5a2a2;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 1px solid #ececec;
+
+    > li {
+        list-style: none;
+
+        + li {
+            margin-top: 20px;
+        }
+    }
+}
