@@ -1,0 +1,64 @@
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.addItem {
+    display: inline-block;
+    background: rgb(40, 10, 216);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.deleteAll {
+    display: inline-block;
+    background: rgb(179, 11, 11);
+    margin-left: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.overview {
+    display: inline-block;
+    justify-content: space-between;
+    width: 500px;
+    border-radius: 1px;
+    border: 1px solid #ececec;
+
+    > ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+        + li {
+            margin-top: 1px;
+            margin: 10px auto;
+        }
+    }
+}
+
+.inputForm {
+    display: inline-block;
+    width: 410px;
+    padding: 5px 5px;
+    border-radius: 1px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #777171;
+}
+
+.removeItem {
+    justify-content: space-between;
+    color: red;
+    padding-right: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}

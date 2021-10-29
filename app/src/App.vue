@@ -1,13 +1,14 @@
 <template>
-  <methods />
+  <Blog />
 </template>
 
 <script>
-import methods from "./components/exercise-methods.vue";
+import Blog from './components/blog.vue';
+
 
 export default {
   components: {
-    methods,
+    Blog,
   },
 };
 </script>

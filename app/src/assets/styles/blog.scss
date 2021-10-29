@@ -1,0 +1,31 @@
+#app {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 60px auto 0;
+    max-width: 800px;
+}
+
+.articles-list {
+    article {
+        display: text;
+        text-align: flex;
+        padding-bottom: 15px;
+
+        .article-text {
+            padding: 15px 0;
+        }
+
+        .thumbnail {
+            margin-right: 30px;
+        }
+
+        .date {
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}
